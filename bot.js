@@ -50,7 +50,7 @@ bot.on("message", function(message){
     switch (args[0].toLowerCase()){
        
        case "tso":
-       message.channel.sendMessage("yea what u want :)");
+       message.channel.sendMessage("https://discord.gg/7d4tYg2");
        break;
 
        case "info":
