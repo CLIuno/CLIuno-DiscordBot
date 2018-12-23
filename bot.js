@@ -41,7 +41,7 @@ bot.on("message", function(message){
        break;
 
        case "info":
-       message.channel.sendMessage("تعالي المكتب");
+       message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
        case "advice":
