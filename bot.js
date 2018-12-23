@@ -44,7 +44,7 @@ bot.on("message", function(message){
        message.channel.sendMessage("I am busy call me later");
        break;
           
-       case "نصيحة":
+       case "advice":
         if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
         else message.channel.sendMessage("الرجاء معاودة الاتصال في وقت لاحق");
 
