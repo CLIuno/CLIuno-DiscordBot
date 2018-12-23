@@ -47,7 +47,7 @@ bot.on("message", function(message){
        message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
-   case "adv":
+   case "نصيحة":
        if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        else message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        break;
