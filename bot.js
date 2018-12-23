@@ -21,6 +21,16 @@ var fsing = [
     
 ];
 
+var df = [
+    "مخط تعبان",
+    "كأنك زي الكرسي اللي قاعد عليه",
+    "انقلع اطلع برا",
+    "شكلك تبغى ترسب",
+    "خلي الجوال ينفعك",
+    "قوم يا حثالة ذاكر"
+    
+];
+
 bot.on("ready", function(){
     console.log("Ready");
     bot.user.setGame('尺௱♡Ӈƙ ❤','https://www.twitch.tv/RMxHK');
@@ -50,6 +60,10 @@ bot.on("message", function(message){
    case "نصيحة":
        if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        else message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
+       break;
+          case "تهزيء":
+       if (args[1]) message.channel.sendMessage(df[Math.floor(Math.random() * df.length)]);
+       else message.channel.sendMessage(df[Math.floor(Math.random() * df.length)]);
        break;
 
        case "sing":
