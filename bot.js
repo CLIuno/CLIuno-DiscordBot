@@ -3,9 +3,12 @@ const PREFIX = "#"
 const bot = new Discord.Client();
 
 var fortunes = [
-    "اترزع زاكر",
-    "شباب لازم تعلموا براكتس",
-    "انشر السيرفر "
+   "I am faaaaaaded",
+    "laaaaa laaaa leeeee",
+    "I have bad voice",
+    "not now",
+    "Despacito Quiero respirar tu cuello despacito  Deja que te diga cosas al oído Para que te acuerdes si no estás conmigo",
+    "Don't give up, I won't give up"
 ];
 
 var fsing = [
