@@ -87,7 +87,7 @@ bot.on("message", function(message){
           
 
        default:
-       message.channel.sendMessage("invalid command")
+       message.channel.sendMessage("روح عني أنا تعبان")
     }
 });
 
