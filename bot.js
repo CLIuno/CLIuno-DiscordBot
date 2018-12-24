@@ -58,7 +58,7 @@ bot.on("message", function(message){
        break;
           
           case "say":
-       message.channel.sendMessage(message.content);
+       message.channel.sendMessage(message.substring(5)+message.content);
        break;
           
    case "نصيحة":
