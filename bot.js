@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const PREFIX = "-"
+const PREFIX = "$"
 const bot = new Discord.Client();
 
 var fortunes = [
@@ -58,7 +58,7 @@ bot.on("message", function(message){
        break;
           
           case "قول":
-       message.channel.sendMessage(message.content.replace('-قول',''));
+       message.channel.sendMessage(message.content.replace('$قول',''));
        break;
           
    case "نصيحة":
@@ -77,7 +77,7 @@ bot.on("message", function(message){
 
        case "info":
        var embed = new Discord.RichEmbed()
-            .addField("Hello, This is FCIT BOT ", "use -hp for more info")
+            .addField("Hello, This is FCIT BOT ", "use $hp for more info")
             .setColor(0x00FFFF)
             .setFooter("created by ☲尺௱_♡_Ӈƙ☲®")
             .setThumbnail(message.author.avatarURL)
