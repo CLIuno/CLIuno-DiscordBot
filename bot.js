@@ -54,7 +54,11 @@ bot.on("message", function(message){
        break;
 
        case "hp":
-       message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
+        var embed3 = new Discord.RichEmbed()
+            .addField("Commands", "info","sing","نصيحة","تهزيء","قول","tso")
+            .setColor(0x00FFFF)
+            .setFooter("created by 尺௱♡ Ӈƙ®")
+            message.channel.sendMessage(embed3);
        break;
           
           case "قول":
