@@ -53,7 +53,7 @@ bot.on("message", function(message){
        message.channel.sendMessage("https://discord.gg/7d4tYg2");
        break;
 
-       case "help":
+       case "hp":
        message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
@@ -77,7 +77,7 @@ bot.on("message", function(message){
 
        case "info":
        var embed = new Discord.RichEmbed()
-            .addField("Hello, This is FCIT BOT ", "use #help for more info")
+            .addField("Hello, This is FCIT BOT ", "use #hp for more info")
             .setColor(0x00FFFF)
             .setFooter("created by ☲尺௱_♡_Ӈƙ☲®")
             .setThumbnail(message.author.avatarURL)
