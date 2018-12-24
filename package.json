@@ -7,7 +7,6 @@
     "start": "node fcitbot.js"
   },
   "dependencies": {
-    "discord.js": "11.4.1",
-    "request": "2.81.0"
+    "discord.js": "^11.3.2"
   }
 }
