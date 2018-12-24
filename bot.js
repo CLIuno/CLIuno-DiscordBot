@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const PREFIX = "#"
+const PREFIX = "-"
 const bot = new Discord.Client();
 
 var fortunes = [
@@ -58,7 +58,7 @@ bot.on("message", function(message){
        break;
           
           case "قول":
-       message.channel.sendMessage(message.content.replace('#قول',''));
+       message.channel.sendMessage(message.content.replace('-قول',''));
        break;
           
    case "نصيحة":
