@@ -76,23 +76,13 @@ bot.on("message", function(message){
        break;
 
        case "embed":
-   const embed = new Discord.RichEmbed()
-                .setAuthor(`Hibiki | 響`, client.user.avatarURL)
-                .addField(`Version`, `1.0`, true)
-                .addField(`Node JS`, `8.11.3`, true)
-                .addField(`Library`, `[discord.js](https://discord.js.org/#/)`, true)
-                .addField(`Uptime`, `${uptime}`, true)
-                .addField(`Servers`, `${client.guilds.size}`, true)
-                .addField(`Users`, `${client.users.size}`, true)
-                .addField(`Website`, `[hibikimoe.xyz](https://hibikimoe.xyz/)`, true)
-                .addField(`Discord`, `[hibikimoe.xyz/discord](https://discord.gg/NNwzMm)`, true)
-                .addField(`Invite`, `[Not available yet](https://discord.gg/NNwzMm)`, true)
-                .addField(`Developer`, `Steve2312#0431`, true)
-                .setFooter("Prefix: ! | This bot is still under construction", "https://a.ppy.sh/5414370_1530431526.jpeg")
-                .setTimestamp()
-                .setColor(0xFF0092);
-            message.channel.send(embed);
-       
+       var embed = new Discord.RichEmbed()
+            .addField("Hello, This is FCIT BOT ", "use #help for more info")
+            .setColor(0x00FFFF)
+            .setFooter("created by ☲尺௱_♡_Ӈƙ☲®")
+            .setThumbnail(message.author.avatarURL)
+            message.channel.sendMessage(embed);
+
        break;
           
 
