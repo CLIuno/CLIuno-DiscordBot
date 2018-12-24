@@ -55,7 +55,7 @@ bot.on("message", function(message){
 
        case "hp":
         var embed3 = new Discord.RichEmbed()
-            .addField("Commands", "info","sing","نصيحة","تهزيء","قول","tso")
+            .addField("Commands","info","sing","نصيحة","تهزيء","قول","tso")
             .setColor(0x00FFFF)
             .setFooter("created by 尺௱♡ Ӈƙ®")
             message.channel.sendMessage(embed3);
@@ -81,7 +81,7 @@ bot.on("message", function(message){
 
        case "info":
        var embed = new Discord.RichEmbed()
-            .addField("Hello, This is FCIT BOT ", "use $hp for more info")
+            .addField("Commands","info","sing","نصيحة","تهزيء","قول","tso")
             .setColor(0x00FFFF)
             .setFooter("created by ☲尺௱_♡_Ӈƙ☲®")
             .setThumbnail(message.author.avatarURL)
