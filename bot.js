@@ -53,7 +53,7 @@ bot.on("message", function(message){
        message.channel.sendMessage("https://discord.gg/7d4tYg2");
        break;
 
-       case "info":
+       case "help":
        message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
@@ -75,7 +75,7 @@ bot.on("message", function(message){
        else message.channel.sendMessage(fsing[Math.floor(Math.random() * fsing.length)]);
        break;
 
-       case "embed":
+       case "info":
        var embed = new Discord.RichEmbed()
             .addField("Hello, This is FCIT BOT ", "use #help for more info")
             .setColor(0x00FFFF)
