@@ -77,7 +77,7 @@ bot.on("message", function(message){
 
        case "info":
        var embed = new Discord.RichEmbed()
-            .addField("Hello, This is FCIT BOT ", "use #hp for more info")
+            .addField("Hello, This is FCIT BOT ", "use -hp for more info")
             .setColor(0x00FFFF)
             .setFooter("created by ☲尺௱_♡_Ӈƙ☲®")
             .setThumbnail(message.author.avatarURL)
