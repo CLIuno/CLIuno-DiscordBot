@@ -57,8 +57,8 @@ bot.on("message", function(message){
        message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
-          case "say":
-       message.channel.sendMessage(message.substring(5)+message.content);
+          case "قول":
+       message.channel.sendMessage(message.content.replace('#say ',''));
        break;
           
    case "نصيحة":
