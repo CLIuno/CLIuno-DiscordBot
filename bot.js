@@ -57,6 +57,10 @@ bot.on("message", function(message){
        message.channel.sendMessage("انا دحين مشغول اذا تبغا شي مني قابلني فساعاتي المكتبية");
        break;
           
+          case "say":
+       message.channel.sendMessage(message);
+       break;
+          
    case "نصيحة":
        if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        else message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
@@ -80,6 +84,7 @@ bot.on("message", function(message){
             message.channel.sendMessage(embed);
        
        break;
+          
 
        default:
        message.channel.sendMessage("invalid command")
