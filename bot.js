@@ -58,7 +58,7 @@ bot.on("message", function(message){
        break;
           
           case "قول":
-       message.channel.sendMessage(message.content.replace('#say ',''));
+       message.channel.sendMessage(message.content.replace('#قول',''));
        break;
           
    case "نصيحة":
