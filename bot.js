@@ -31,12 +31,12 @@ var df = [
     
 ];
 var dx = [
-    "روح عني أنا تعبان",
-    "كلم شبوب يساعدوك",
-    "اكلمك بعدين جالس اتفرج قلة حيا",
-    "يبن ال ايش تبغا؟",
-    "ااااه اااه",
-  
+    "مخك تعبان",
+    "كأنك زي الكرسي اللي قاعد عليه",
+    "انقلع اطلع برا",
+    "شكلك تبغى ترسب",
+    "خلي الجوال ينفعك",
+    "قوم يا حثالة ذاكر"
     
 ];
 bot.on("ready", function(){
@@ -98,7 +98,7 @@ bot.on("message", function(message){
           
 
        default:
-       message.channel.sendMessage(dx[Math.floor(Math.random() * dx.length)])
+       message.channel.sendMessage(df[Math.floor(Math.random() * df.length)])
     }
 });
 
