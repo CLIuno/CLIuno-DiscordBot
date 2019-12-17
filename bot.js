@@ -77,7 +77,7 @@ bot.on("message", function(message){
        else message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        break;
           case "تهزيء":
-       if (args[1]) message.channel.sendMessage(df[Math.floor(Math.random() * df.length)]);
+       if (args[1]) message.channel.sendMessage(dx[Math.floor(Math.random() * dx.length)]);
        else message.channel.sendMessage(df[Math.floor(Math.random() * df.length)]);
        break;
 
