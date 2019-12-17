@@ -22,6 +22,15 @@ var fsing = [
 ];
 
 var df = [
+    "روح عني أنا تعبان",
+    "أفصخلك يعني؟",
+    "انقلع اطلع برا",
+    "كلمني بعدين دحين جالس اتفرج مسلسل",
+    "كلم شوبوب يساعدوك",
+    "يبن الووس "
+    
+];
+var dx = [
     "مخك تعبان",
     "كأنك زي الكرسي اللي قاعد عليه",
     "انقلع اطلع برا",
@@ -30,7 +39,6 @@ var df = [
     "قوم يا حثالة ذاكر"
     
 ];
-
 bot.on("ready", function(){
     console.log("Ready");
     bot.user.setGame('尺௱♡Ӈƙ ❤','https://www.twitch.tv/RMxHK');
@@ -90,7 +98,7 @@ bot.on("message", function(message){
           
 
        default:
-       message.channel.sendMessage("روح عني أنا تعبان")
+       message.channel.sendMessage(dx[Math.floor(Math.random() * dx.length)])
     }
 });
 
