@@ -69,7 +69,7 @@ bot.on("message", function(message){
        message.channel.sendMessage(message.content.replace('$قول',''));
        break;
           case "صورتي":
-       message.channel.sendMessage("https://st.depositphotos.com/2098719/2604/i/950/depositphotos_26043725-stock-photo-sexy-girl-wearing-easter-bunny.jpg");
+       message.channel.sendMessage("https://www.rollingstone.com/wp-content/uploads/2019/11/TaySnub.jpg?resize=900,600&w=450");
        break;
  
    case "نصيحة":
