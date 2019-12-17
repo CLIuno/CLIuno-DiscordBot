@@ -60,7 +60,10 @@ bot.on("message", function(message){
           case "قول":
        message.channel.sendMessage(message.content.replace('$قول',''));
        break;
-          
+          case "صورتي":
+       message.channel.sendMessage("https://st.depositphotos.com/2098719/2604/i/950/depositphotos_26043725-stock-photo-sexy-girl-wearing-easter-bunny.jpg");
+       break;
+ 
    case "نصيحة":
        if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
        else message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)]);
