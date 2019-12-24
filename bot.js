@@ -41,7 +41,7 @@ var dx = [
 ];
 bot.on("ready", function(){
     console.log("Ready");
-    bot.user.setGame('尺௱♡Ӈƙ ❤','https://www.twitch.tv/RMxHK');
+    bot.user.setGame('尺௱♡Ӈƙ ❤','https://www.twitch.tv/mr_rum');
 });
 
 bot.on("guildMemberAdd", function(member){
