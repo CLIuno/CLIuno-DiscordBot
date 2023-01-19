@@ -1,6 +1,6 @@
 {
-  "name": "FCIT",
-  "description": "FICT",
+  "name": "github",
+  "description": "GitHub",
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
