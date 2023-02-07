@@ -1,12 +1,20 @@
 {
-  "name": "github",
-  "description": "GitHub",
-  "version": "1.0.0",
-  "main": "bot.js",
+  "name": "aiodiscordbot",
+  "description": "A simple Discord bot written in JavaScript using the Discord.js library.",
+  "version": "0.1.0",
+  "main": "app.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "dependencies": {
-    "discord.js": "^11.3.2"
+    "@discordjs/voice": "^0.14.0",
+    "bufferutil": "^4.0.7",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "erlpack": "github:discord/erlpack",
+    "nodemon": "^2.0.20",
+    "utf-8-validate": "^6.0.2",
+    "zlib-sync": "^0.1.8"
   }
 }
