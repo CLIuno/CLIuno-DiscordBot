@@ -1,4 +1,4 @@
-//  simple axios wrapper
+//  TODO: add a default error handler
 //  - adds a default base url
 //  - adds a default timeout
 //  - adds a default error handler

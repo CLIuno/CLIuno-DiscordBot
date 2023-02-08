@@ -40,19 +40,3 @@ aio.on(Events.InteractionCreate, async (interaction) => {
 });
 
 aio.login(process.env.BOT_TOKEN);
-
-// bot.on("guildMemberAdd", function (member) {
-//   member.guild.channels
-//     .find("name", "general")
-//     .sendMessage("Hey guys " + member.toString() + " is here!");
-// bot.on("message", function (message) {
-//   if (message.author.equals(bot.user)) return;
-//     case "info":
-//       var embed = new Discord.RichEmbed()
-//         .addField(
-//           "Hello, This is Aio cli Bot",
-//           "use $help for more information"
-//         .setColor(0x00ffff)
-//         .setFooter("created by 尺௱♡Ӈƙ®#5990")
-//         .setThumbnail(message.author.avatarURL);
-//       message.channel.sendMessage(embed);
