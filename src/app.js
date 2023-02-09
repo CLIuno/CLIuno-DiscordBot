@@ -18,26 +18,26 @@ for (const file of commandFiles) {
   aio.commands.set(command.data.name, command);
 }
 
-// aio.once(Events.ClientReady, (c) => {
-//   console.log(`Logged in as ${c.user.tag} successfully!`);
-// });
+aio.once(Events.ClientReady, (c) => {
+  console.log(`Logged in as ${c.user.tag} successfully!`);
+});
 
-// aio.on(Events.InteractionCreate, async (interaction) => {
-//   if (!interaction.isChatInputCommand()) return;
+aio.on(Events.InteractionCreate, async (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
 
-//   const command = aio.commands.get(interaction.commandName);
+  const command = aio.commands.get(interaction.commandName);
 
-//   if (!command) return;
+  if (!command) return;
 
-//   try {
-//     await command.execute(interaction);
-//   } catch (error) {
-//     console.error(error);
-//     await interaction.reply({
-//       content: "There was an error while executing this command!",
-//       ephemeral: true,
-//     });
-//   }
-// });
+  try {
+    await command.execute(interaction);
+  } catch (error) {
+    console.error(error);
+    await interaction.reply({
+      content: "There was an error while executing this command!",
+      ephemeral: true,
+    });
+  }
+});
 
-// aio.login(process.env.BOT_TOKEN);
+aio.login(process.env.BOT_TOKEN);
