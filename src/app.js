@@ -14,7 +14,6 @@ const commandFiles = fs
 for (const file of commandFiles) {
   const filePath = path.join(commandsPath, file);
   const command = require(filePath);
-  console.log(`Loading command ${command}...`);
   aio.commands.set(command.data.name, command);
 }
 

@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "dependencies": {
     "@discordjs/voice": "^0.14.0",
